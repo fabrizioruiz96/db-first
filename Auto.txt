@@ -1,18 +1,18 @@
 AUTO
  _______________________________________________________________
-| NOME			        | TIPO DI DATO	| ATTRIBUTI		        |
-|_______________________|_______________|_______________________|
-| 			            |       		|       			    |
-| ID			        | int		    | PK, AUTO_INCREMENT    |
-| MODELLO		        | varchar(20)	| NOT_NULL		        |
-| MARCA			        | varchar(20)	| NOT_NULL		        |
-| CARROZZERIA	        | varchar(15)	| NULL			        |
-| CARBURANTE	        | varchar(10)	| DEFAULT(BENZINA)	    |
-| CAMBIO		        | varchar(15)	| DEFAULT(MANUALE)	    |      
-| ANNO_IMMATRICOLAZIONE	| year		    | NOT_NULL		        |
-| CHILOMETRAGGIO	    | int		    | NOT_NULL		        |
-| POTENZA		        | smallint	    | NOT_NULL		        |
-| NUMERO_PORTE		    | tinyint	    | NOT_NULL		        |
-| COLORE_ESTERNI	    | varchar(15)	| NULL			        |
-| PREZZO		        | money       	| NOT_NULL		        |
-|_______________________________________________________________|
+| NOME			               | TIPO DI DATO	| ATTRIBUTI		           |
+|_______________________|______________|_______________________|
+| 			                   |       		     |       			             |
+| ID			                 | int		        | PK, AUTO_INCREMENT    |
+| MODELLO		             | varchar(20)	 | NOT_NULL		            |
+| MARCA			              | varchar(20)	 | NOT_NULL		            |
+| CARROZZERIA	          | varchar(15)	 | NULL			               |
+| CARBURANTE	           | varchar(10)	 | DEFAULT(BENZINA)	     |
+| CAMBIO		              | varchar(15)	 | DEFAULT(MANUALE)	     |      
+| ANNO_IMMATRICOLAZIONE	| year		       | NOT_NULL		            |
+| CHILOMETRAGGIO	       | int		        | NOT_NULL		            | 
+| POTENZA		             | smallint	    | NOT_NULL		            |  
+| NUMERO_PORTE		        | tinyint	     | NOT_NULL		            |
+| COLORE_ESTERNI	       | varchar(15)	 | NULL			               |
+| PREZZO		              | money       	| NOT_NULL		            |
+|______________________________________________________________|
